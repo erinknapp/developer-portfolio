@@ -74,9 +74,7 @@
   
   /* HEADER / NAVBAR STYLES END */
   
-  
-  
-  /* FOOTER STYLES START */
+ /* FOOTER STYLES START */
   footer {
     background: var(--primary-color);
     padding: 40px 35px;
@@ -134,9 +132,7 @@
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
-
- 
-  /* HERO STYLES END */
+ /* HERO STYLES END */
   
   
   /* SECTION TITLE STYLES START */
@@ -159,38 +155,34 @@
   }
   /* SECTION TITLE STYLES END */
   
-  /* WHAT WE DO STYLES */
-  .intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
-  }
-  /* WHAT YOU DO STYLES END */
-  
-  
   /* WHAT YOU DO STYLES START */
-  .steps { 
+  .stack { 
     background: var(--primary-color);
   }
   
   .step {
     margin: 50px auto;
     padding-bottom: 50px;
-    width: 80%;
+    width: 35%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
   
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .container img {
+    width: 100%;
+  }
   /* WHAT YOU DO STYLES END */
   
   /* MEET THE projects START */
   .projects {
-    width: 120%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -255,42 +247,7 @@
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
-  }
-  
-  .contact-form input, .contact-form textarea {
-    border: 1px solid var(--secondary-color);
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: var(--secondary-color);
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75);
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(255,255,255, 1);
-    outline: none;
-  }
-  
-  .contact-form button {
-    width: 100%;
-    border: none;
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 15px 0;
-    font-size: 16px;
-    border-radius: 10px;
-  }
-  
-  .contact-form button:hover {
-    color: var(--primary-color);
-    background: var(--tertiary-color);
-  }
-  
+  }  
   .contact-info a {
     color: var(--primary-color);
   }
